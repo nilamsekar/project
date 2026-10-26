@@ -1,0 +1,20 @@
+[
+ {"id_tagihan":"T-2026-05","id_penghuni":1,"periode":"2026-05","total":945000,"jatuh_tempo":"2026-05-05","status":"lunas",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Listrik","nominal":95000}],
+  "pembayaran":[{"tgl_bayar":"2026-05-03","nominal":945000,"metode":"transfer","status_verifikasi":"valid"}]},
+ {"id_tagihan":"T-2026-06","id_penghuni":1,"periode":"2026-06","total":960000,"jatuh_tempo":"2026-06-05","status":"lunas",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Listrik","nominal":110000}],
+  "pembayaran":[{"tgl_bayar":"2026-06-04","nominal":960000,"metode":"tunai","status_verifikasi":"valid"}]},
+ {"id_tagihan":"T-2026-07","id_penghuni":1,"periode":"2026-07","total":900000,"jatuh_tempo":"2026-07-05","status":"lunas",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Denda","nominal":50000}],
+  "pembayaran":[{"tgl_bayar":"2026-07-08","nominal":900000,"metode":"transfer","status_verifikasi":"ditolak"},{"tgl_bayar":"2026-07-09","nominal":900000,"metode":"transfer","status_verifikasi":"valid"}]},
+ {"id_tagihan":"T-2026-08","id_penghuni":1,"periode":"2026-08","total":952000,"jatuh_tempo":"2026-08-05","status":"menunggu_verifikasi",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Listrik","nominal":102000}],
+  "pembayaran":[{"tgl_bayar":"2026-08-04","nominal":952000,"metode":"transfer","status_verifikasi":"menunggu"}]},
+ {"id_tagihan":"T-2026-09","id_penghuni":1,"periode":"2026-09","total":1020000,"jatuh_tempo":"2026-09-05","status":"terlambat",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Listrik","nominal":120000},{"keterangan":"Denda","nominal":50000}],
+  "pembayaran":[{"tgl_bayar":"2026-09-10","nominal":1020000,"metode":"transfer","status_verifikasi":"ditolak"}]},
+ {"id_tagihan":"T-2026-10","id_penghuni":1,"periode":"2026-10","total":947000,"jatuh_tempo":"2026-11-05","status":"belum_bayar",
+  "items":[{"keterangan":"Sewa","nominal":850000},{"keterangan":"Listrik","nominal":97000}],
+  "pembayaran":[]}
+]

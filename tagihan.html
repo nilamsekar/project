@@ -1,0 +1,49 @@
+<section class="page">
+  <header class="page-head">
+    <span class="ico">&#129534;</span>
+    <div><h2>Tagihan Saya</h2><p>Klik baris tagihan untuk melihat rinciannya.</p></div>
+  </header>
+
+  <div class="stats">
+    <div class="stat main"><span>Total belum lunas</span><strong id="total-belum">Rp 0</strong></div>
+    <div class="stat s2"><span>Tagihan aktif</span><strong id="n-aktif">0</strong></div>
+    <div class="stat s3"><span>Terlambat</span><strong id="n-telat">0</strong></div>
+    <div class="stat s4"><span>Sudah lunas</span><strong id="n-lunas">0</strong></div>
+  </div>
+
+  <div class="panel sim">
+    <div class="field">
+      <label for="tgl-sim">Tanggal hari ini (simulasi)</label>
+      <input type="date" id="tgl-sim">
+    </div>
+    <p>Ubah tanggal ini. Tagihan Belum Bayar yang sudah lewat jatuh tempo otomatis menjadi Terlambat.</p>
+  </div>
+
+  <div class="chips" role="group" aria-label="Filter status">
+    <button class="chip on" data-status="">Semua</button>
+    <button class="chip" data-status="Belum Bayar">Belum Bayar</button>
+    <button class="chip" data-status="Menunggu Verifikasi">Menunggu Verifikasi</button>
+    <button class="chip" data-status="Terlambat">Terlambat</button>
+    <button class="chip" data-status="Lunas">Lunas</button>
+  </div>
+
+  <h3>Tagihan aktif</h3>
+  <table class="tbl">
+    <thead><tr><th>Periode</th><th class="num">Total</th><th>Jatuh tempo</th><th>Status</th></tr></thead>
+    <tbody id="tb-aktif"></tbody>
+  </table>
+
+  <h3>Riwayat lunas</h3>
+  <table class="tbl">
+    <thead><tr><th>Periode</th><th class="num">Total</th><th>Jatuh tempo</th><th>Status</th></tr></thead>
+    <tbody id="tb-riwayat"></tbody>
+  </table>
+
+  <div id="rincian" class="struk big" hidden>
+    <p class="struk-top" id="rincian-judul"></p>
+    <div id="rincian-body"></div>
+    <div class="struk-total"><span>Total</span><b id="rincian-total"></b></div>
+    <div id="rincian-bayar"></div>
+    <span id="rincian-badge"></span>
+  </div>
+</section>
