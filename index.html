@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kos Abah - Tagihan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar">
+  <a href="index.html" data-home class="brand"><img src="img/logo.svg" alt="Kos Abah"></a>
+  <button class="menu-btn" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  <nav class="nav">
+    <a href="index.html" data-home class="active">Beranda</a>
+    <a href="halaman/tagihan.html" data-load="halaman/tagihan.html" data-init="initTagihan">Tagihan Saya</a>
+    <a href="halaman/bayar.html" data-load="halaman/bayar.html" data-init="initBayar" class="cta">Unggah Bukti Bayar</a>
+  </nav>
+</header>
+
+<main id="konten">
+  <section class="hero">
+    <div class="slides" aria-hidden="true">
+      <img class="slide active" src="img/tampak-depan.jpg" alt="">
+      <img class="slide" src="img/kamar.jpg" alt="">
+      <img class="slide" src="img/area-bersama.jpg" alt="">
+    </div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <h1>Tagihan kos jelas, bayar tanpa tanya-tanya.</h1>
+        <p>Pantau tagihan bulanan, lihat rinciannya, dan kirim bukti bayar dari satu tempat.</p>
+        <div class="hero-actions">
+          <a href="halaman/tagihan.html" class="btn" data-load="halaman/tagihan.html" data-init="initTagihan">Lihat tagihan saya</a>
+          <a href="halaman/bayar.html" class="btn ghost" data-load="halaman/bayar.html" data-init="initBayar">Unggah bukti bayar</a>
+        </div>
+      </div>
+      <aside class="struk" aria-label="Contoh tagihan">
+        <p class="struk-top">Contoh tagihan</p>
+        <div class="struk-row"><span>Sewa kamar</span><b>Rp 850.000</b></div>
+        <div class="struk-row"><span>Listrik</span><b>Rp 120.000</b></div>
+        <div class="struk-row"><span>Denda</span><b>Rp 0</b></div>
+        <div class="struk-total"><span>Total</span><b>Rp 970.000</b></div>
+        <span class="badge b-menunggu">Menunggu Verifikasi</span>
+      </aside>
+    </div>
+    <button class="arrow prev" aria-label="Foto sebelumnya">&#8249;</button>
+    <button class="arrow next" aria-label="Foto berikutnya">&#8250;</button>
+  </section>
+
+  <section class="fitur" aria-label="Keunggulan">
+    <div><i>&#128197;</i><b>Tagihan tiap bulan</b><small>Terbit otomatis dan jelas</small></div>
+    <div><i>&#128179;</i><b>Tunai atau transfer</b><small>Pilih cara yang mudah</small></div>
+    <div><i>&#127991;</i><b>4 status tagihan</b><small>Mudah dipantau</small></div>
+    <div><i>&#9989;</i><b>Bukti diverifikasi</b><small>Oleh pemilik kos</small></div>
+  </section>
+
+  <section class="section profil">
+    <div class="profil-box">
+      <img class="profil-ico" src="img/tampak-depan.jpg" alt="Tampak depan Kos Abah" width="96" height="96">
+      <h2>Kos Abah, rumah kedua dekat kampus</h2>
+      <p>Kos Abah menyediakan kamar bersih dan aman untuk mahasiswa dan pekerja. Pembayaran bisa tunai atau transfer, dan semua tagihan tercatat rapi.</p>
+      <p><strong>Alamat:</strong> Jl. Mawar No. 12, Surabaya<br><strong>Pemilik:</strong> Pak Udin, 0812-0002-3417</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Fasilitas kos</h2>
+    <div class="fasilitas">
+      <div><i><img src="img/ico-wifi.svg" alt="" width="64" height="64"></i><b>WiFi</b><small>Cepat, gratis</small></div>
+      <div><i><img src="img/ico-kamar-mandi.svg" alt="" width="64" height="64"></i><b>Kamar mandi dalam</b><small>Air bersih</small></div>
+      <div><i><img src="img/ico-parkir-motor.svg" alt="" width="64" height="64"></i><b>Parkir motor</b><small>Area aman</small></div>
+      <div><i><img src="img/ico-laundry.svg" alt="" width="64" height="64"></i><b>Laundry</b><small>Tersedia di lokasi</small></div>
+      <div><i><img src="img/ico-cctv.svg" alt="" width="64" height="64"></i><b>CCTV</b><small>Pantauan 24 jam</small></div>
+      <div><i><img src="img/ico-dapur.svg" alt="" width="64" height="64"></i><b>Dapur bersama</b><small>Peralatan dasar</small></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Galeri Kos Abah</h2>
+    <div class="galeri">
+      <figure><img src="img/tampak-depan.jpg" alt="Tampak depan Kos Abah" loading="lazy"><figcaption>Tampak depan</figcaption></figure>
+      <figure><img src="img/kamar.jpg" alt="Kamar kos yang nyaman" loading="lazy"><figcaption>Kamar nyaman</figcaption></figure>
+      <figure><img src="img/area-bersama.jpg" alt="Area bersama dengan sofa dan atap kaca" loading="lazy"><figcaption>Area bersama</figcaption></figure>
+      <figure><img src="img/teras-depan.jpg" alt="Teras depan kamar kos" loading="lazy"><figcaption>Teras depan</figcaption></figure>
+    </div>
+  </section>
+
+  <section class="section bg-alt">
+    <h2>Alur pembayaran</h2>
+    <ol class="alur">
+      <li><b>Tagihan terbit</b><span>Setiap bulan, lengkap dengan rincian.</span></li>
+      <li><b>Bayar dan unggah bukti</b><span>Tunai atau transfer, lalu kirim buktinya.</span></li>
+      <li><b>Diverifikasi</b><span>Pemilik memeriksa, status menjadi Lunas.</span></li>
+    </ol>
+  </section>
+
+  <section class="section faq">
+    <h2>Pertanyaan umum</h2>
+    <details><summary>Bagaimana cara membayar?</summary><p>Pembayaran bisa dilakukan secara tunai atau transfer.</p></details>
+    <details><summary>Bagaimana bukti transfer diproses?</summary><p>Bukti diunggah oleh penghuni, lalu diverifikasi oleh pemilik kos.</p></details>
+    <details><summary>Apa saja status tagihan?</summary><p>Ada empat status: Belum Bayar, Menunggu Verifikasi, Lunas, dan Terlambat.</p></details>
+    <details><summary>Kapan tagihan terbit?</summary><p>Tagihan terbit setiap bulan.</p></details>
+  </section>
+  <div class="cta-band">
+    <div><h2>Sudah cek tagihan bulan ini?</h2><p>Lihat rincian dan unggah bukti bayar dalam beberapa klik.</p></div>
+    <a href="halaman/tagihan.html" class="btn" data-load="halaman/tagihan.html" data-init="initTagihan">Cek tagihan sekarang</a>
+  </div>
+</main>
+
+<footer>
+  <div><img src="img/logo.svg" alt="Kos Abah"></div>
+  <div><b>Alamat</b><p>Jl. Mawar No. 12, Surabaya</p></div>
+  <div><b>Kontak pemilik</b><p>Pak Udin, 0812-0002-3417</p></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/tagihan.js"></script>
+<script src="js/bayar.js"></script>
+</body>
+</html>
